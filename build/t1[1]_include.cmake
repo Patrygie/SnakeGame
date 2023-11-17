@@ -1,0 +1,5 @@
+if(EXISTS "/home/patrygie/CppProjektyGitHub/Snake/build/t1[1]_tests.cmake")
+  include("/home/patrygie/CppProjektyGitHub/Snake/build/t1[1]_tests.cmake")
+else()
+  add_test(t1_NOT_BUILT t1_NOT_BUILT)
+endif()
