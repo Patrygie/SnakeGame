@@ -1,12 +1,11 @@
-#include <iostream>
-#include <array>
-#include <span>
-#include "../lib/lib.hpp"
+
+#include "../lib/Board.hpp"
 
 int main()
 {
-	std::cout << "ELO\n";
-	number(12);
+	Board board(30);
+	board.print_boarders();
+
 	getchar();
 	
 	return 0;

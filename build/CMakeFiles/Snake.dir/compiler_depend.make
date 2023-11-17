@@ -3,6 +3,7 @@
 
 CMakeFiles/Snake.dir/src/main.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/main.cpp \
   /usr/include/stdc-predef.h \
+  /home/patrygie/CppProjektyGitHub/Snake/lib/Board.hpp \
   /usr/include/c++/12/iostream \
   /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -183,18 +184,8 @@ CMakeFiles/Snake.dir/src/main.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/
   /usr/include/c++/12/bits/basic_ios.tcc \
   /usr/include/c++/12/bits/ostream.tcc \
   /usr/include/c++/12/istream \
-  /usr/include/c++/12/bits/istream.tcc \
-  /usr/include/c++/12/array \
-  /usr/include/c++/12/compare \
-  /usr/include/c++/12/span \
-  /home/patrygie/CppProjektyGitHub/Snake/lib/lib.hpp
+  /usr/include/c++/12/bits/istream.tcc
 
-
-/home/patrygie/CppProjektyGitHub/Snake/lib/lib.hpp:
-
-/usr/include/c++/12/compare:
-
-/usr/include/c++/12/array:
 
 /usr/include/c++/12/bits/basic_ios.tcc:
 
@@ -264,6 +255,8 @@ CMakeFiles/Snake.dir/src/main.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/
 
 /usr/include/c++/12/bits/alloc_traits.h:
 
+/usr/include/c++/12/ext/alloc_traits.h:
+
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
 /usr/include/c++/12/bits/hash_bytes.h:
@@ -312,6 +305,24 @@ CMakeFiles/Snake.dir/src/main.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
+/usr/include/asm-generic/errno-base.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h:
+
+/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/c++/12/bits/ptr_traits.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+
+/home/patrygie/CppProjektyGitHub/Snake/src/main.cpp:
+
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
@@ -326,10 +337,6 @@ CMakeFiles/Snake.dir/src/main.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
-/usr/include/c++/12/bits/stringfwd.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
@@ -338,31 +345,9 @@ CMakeFiles/Snake.dir/src/main.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/gthr.h:
 
-/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h:
-
-/usr/include/c++/12/ext/alloc_traits.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/usr/include/c++/12/bits/locale_classes.tcc:
-
-/usr/include/c++/12/bits/exception.h:
-
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
-
-/usr/include/c++/12/bits/ptr_traits.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
-
-/home/patrygie/CppProjektyGitHub/Snake/src/main.cpp:
+/usr/include/c++/12/bits/stringfwd.h:
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h:
 
@@ -379,6 +364,12 @@ CMakeFiles/Snake.dir/src/main.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/include/c++/12/bits/locale_classes.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+
+/usr/include/c++/12/bits/exception.h:
 
 /usr/include/c++/12/bits/move.h:
 
@@ -411,6 +402,14 @@ CMakeFiles/Snake.dir/src/main.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/
 /usr/include/linux/errno.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/c++/12/bits/allocator.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/home/patrygie/CppProjektyGitHub/Snake/lib/Board.hpp:
+
+/usr/include/c++/12/bits/cpp_type_traits.h:
 
 /usr/include/c++/12/iosfwd:
 
@@ -514,12 +513,6 @@ CMakeFiles/Snake.dir/src/main.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/
 
 /usr/include/c++/12/bits/ostream_insert.h:
 
-/usr/include/c++/12/bits/allocator.h:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/usr/include/c++/12/bits/cpp_type_traits.h:
-
 /usr/include/c++/12/bits/new_allocator.h:
 
 /usr/include/c++/12/bits/cxxabi_forced.h:
@@ -527,8 +520,6 @@ CMakeFiles/Snake.dir/src/main.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/
 /usr/include/x86_64-linux-gnu/c++/12/bits/ctype_base.h:
 
 /usr/include/c++/12/bits/stl_iterator_base_types.h:
-
-/usr/include/c++/12/span:
 
 /usr/include/c++/12/bits/stl_iterator_base_funcs.h:
 

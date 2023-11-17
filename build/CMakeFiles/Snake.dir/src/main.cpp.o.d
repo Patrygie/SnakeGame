@@ -1,6 +1,8 @@
 CMakeFiles/Snake.dir/src/main.cpp.o: \
  /home/patrygie/CppProjektyGitHub/Snake/src/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/12/iostream \
+ /usr/include/stdc-predef.h \
+ /home/patrygie/CppProjektyGitHub/Snake/src/../lib/Board.hpp \
+ /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -147,6 +149,4 @@ CMakeFiles/Snake.dir/src/main.cpp.o: \
  /usr/include/c++/12/bits/locale_facets.tcc \
  /usr/include/c++/12/bits/basic_ios.tcc \
  /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
- /usr/include/c++/12/bits/istream.tcc /usr/include/c++/12/array \
- /usr/include/c++/12/compare /usr/include/c++/12/span \
- /home/patrygie/CppProjektyGitHub/Snake/src/../lib/lib.hpp
+ /usr/include/c++/12/bits/istream.tcc
