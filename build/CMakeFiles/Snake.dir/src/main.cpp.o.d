@@ -1,8 +1,6 @@
 CMakeFiles/Snake.dir/src/main.cpp.o: \
  /home/patrygie/CppProjektyGitHub/Snake/src/main.cpp \
- /usr/include/stdc-predef.h \
- /home/patrygie/CppProjektyGitHub/Snake/src/../lib/Board.hpp \
- /usr/include/c++/12/iostream \
+ /usr/include/stdc-predef.h /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -149,4 +147,25 @@ CMakeFiles/Snake.dir/src/main.cpp.o: \
  /usr/include/c++/12/bits/locale_facets.tcc \
  /usr/include/c++/12/bits/basic_ios.tcc \
  /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
- /usr/include/c++/12/bits/istream.tcc
+ /usr/include/c++/12/bits/istream.tcc /usr/include/c++/12/thread \
+ /usr/include/c++/12/bits/std_thread.h /usr/include/c++/12/tuple \
+ /usr/include/c++/12/bits/uses_allocator.h \
+ /usr/include/c++/12/bits/unique_ptr.h \
+ /usr/include/c++/12/bits/this_thread_sleep.h \
+ /usr/include/c++/12/bits/chrono.h /usr/include/c++/12/ratio \
+ /usr/include/c++/12/limits /usr/include/c++/12/ctime \
+ /usr/include/c++/12/bits/parse_numbers.h /usr/include/c++/12/chrono \
+ /home/patrygie/CppProjektyGitHub/Snake/src/../inc/ThreadKeyboard.hpp \
+ /home/patrygie/CppProjektyGitHub/Snake/src/../inc/ThreadScreen.hpp \
+ /home/patrygie/CppProjektyGitHub/Snake/src/../inc/../inc/Window.hpp \
+ /usr/include/curses.h /usr/include/ncurses_dll.h /usr/include/unctrl.h \
+ /usr/include/curses.h /usr/include/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h \
+ /home/patrygie/CppProjektyGitHub/Snake/src/../inc/../inc/Board.hpp \
+ /home/patrygie/CppProjektyGitHub/Snake/src/../inc/../inc/Snake.hpp

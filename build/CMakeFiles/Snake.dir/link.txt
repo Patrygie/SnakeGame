@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/Snake.dir/src/main.cpp.o -o Snake 
+/usr/bin/c++ CMakeFiles/Snake.dir/src/main.cpp.o CMakeFiles/Snake.dir/src/Board.cpp.o CMakeFiles/Snake.dir/src/Window.cpp.o CMakeFiles/Snake.dir/src/Snake.cpp.o -o Snake  -lcurses /usr/lib/x86_64-linux-gnu/libform.so 
