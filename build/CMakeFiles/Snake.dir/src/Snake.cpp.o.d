@@ -2,7 +2,6 @@ CMakeFiles/Snake.dir/src/Snake.cpp.o: \
  /home/patrygie/CppProjektyGitHub/Snake/src/Snake.cpp \
  /usr/include/stdc-predef.h \
  /home/patrygie/CppProjektyGitHub/Snake/src/../inc/Snake.hpp \
- /home/patrygie/CppProjektyGitHub/Snake/src/../inc/Window.hpp \
  /usr/include/curses.h /usr/include/ncurses_dll.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \

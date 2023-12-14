@@ -56,7 +56,6 @@ CMakeFiles/Snake.dir/src/Board.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src
 CMakeFiles/Snake.dir/src/Snake.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/Snake.cpp \
   /usr/include/stdc-predef.h \
   /home/patrygie/CppProjektyGitHub/Snake/inc/Snake.hpp \
-  /home/patrygie/CppProjektyGitHub/Snake/inc/Window.hpp \
   /usr/include/curses.h \
   /usr/include/ncurses_dll.h \
   /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h \
@@ -367,8 +366,19 @@ CMakeFiles/Snake.dir/src/main.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /home/patrygie/CppProjektyGitHub/Snake/inc/Board.hpp \
-  /home/patrygie/CppProjektyGitHub/Snake/inc/Snake.hpp
+  /home/patrygie/CppProjektyGitHub/Snake/inc/Snake.hpp \
+  /usr/include/c++/12/vector \
+  /usr/include/c++/12/bits/stl_uninitialized.h \
+  /usr/include/c++/12/bits/stl_vector.h \
+  /usr/include/c++/12/bits/stl_bvector.h \
+  /usr/include/c++/12/bits/vector.tcc
 
+
+/usr/include/c++/12/bits/stl_bvector.h:
+
+/usr/include/c++/12/bits/stl_vector.h:
+
+/usr/include/c++/12/bits/stl_uninitialized.h:
 
 /home/patrygie/CppProjektyGitHub/Snake/inc/ThreadKeyboard.hpp:
 
@@ -381,6 +391,8 @@ CMakeFiles/Snake.dir/src/main.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/
 /usr/include/c++/12/ctime:
 
 /usr/include/c++/12/bits/basic_ios.tcc:
+
+/usr/include/c++/12/vector:
 
 /usr/include/c++/12/bits/streambuf_iterator.h:
 
@@ -791,6 +803,8 @@ CMakeFiles/Snake.dir/src/main.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/
 /usr/include/x86_64-linux-gnu/bits/confname.h:
 
 /usr/include/c++/12/bits/new_allocator.h:
+
+/usr/include/c++/12/bits/vector.tcc:
 
 /usr/include/c++/12/bits/invoke.h:
 

@@ -168,4 +168,8 @@ CMakeFiles/Snake.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h \
  /home/patrygie/CppProjektyGitHub/Snake/src/../inc/../inc/Board.hpp \
- /home/patrygie/CppProjektyGitHub/Snake/src/../inc/../inc/Snake.hpp
+ /home/patrygie/CppProjektyGitHub/Snake/src/../inc/../inc/Snake.hpp \
+ /usr/include/c++/12/vector /usr/include/c++/12/bits/stl_uninitialized.h \
+ /usr/include/c++/12/bits/stl_vector.h \
+ /usr/include/c++/12/bits/stl_bvector.h \
+ /usr/include/c++/12/bits/vector.tcc
