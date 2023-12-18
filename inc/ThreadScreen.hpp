@@ -14,41 +14,41 @@ void th_screen()
 	board.print_boarders();
 
     std::vector<SnakePart> Snake{};
-    SnakePart head;
-    head.print(50, 25);
+    SnakePart head(50, 25);
     Snake.push_back(head);
 
-    // SnakePart p1;
-    // p1.print(head.x_prev, head.y_prev);
-
-
+    SnakePart p1(head.x_prev, head.y_prev);
+    Snake.push_back(p1);
+    SnakePart p2(p1.x_prev, p1.y_prev);
+    Snake.push_back(p1);
+    
     while(true)
     {
+        // p1.clear();
+        p2.clear();
         if(keyInput == 'A')
         {
-            // head.y_next -= 1; /*ogarnąć z rysowaniem w konkretnej lokalizacji,
-            // kolejne segmenty korzystają z wartości prev poprzedniego segmentu*/
+            p2.print_ruthless(p1.x_prev, p1.y_prev);
+            p1.print_ruthless(head.x_prev, head.y_prev);
             head.print(0, -1);
-            head.clear(0, 1);
-            // head.clear();
         }
         else if(keyInput == 'B')
         {
+            p2.print_ruthless(p1.x_prev, p1.y_prev);
+            p1.print_ruthless(head.x_prev, head.y_prev);
             head.print(0, 1);
-            head.clear(0, -1);
-            // head.clear();
         }
         else if(keyInput == 'C')
         {
+            p2.print_ruthless(p1.x_prev, p1.y_prev);
+            p1.print_ruthless(head.x_prev, head.y_prev);
             head.print(1, 0);
-            head.clear(-1, 0);
-            // head.clear();
         }
         else if(keyInput == 'D')
         {
+            p2.print_ruthless(p1.x_prev, p1.y_prev);
+            p1.print_ruthless(head.x_prev, head.y_prev);
             head.print(-1, 0);
-            head.clear(1, 0);
-            // head.clear();
         }
         else if(keyInput == 'q')
         {

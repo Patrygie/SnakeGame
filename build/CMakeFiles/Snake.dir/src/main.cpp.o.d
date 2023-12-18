@@ -155,9 +155,8 @@ CMakeFiles/Snake.dir/src/main.cpp.o: \
  /usr/include/c++/12/bits/chrono.h /usr/include/c++/12/ratio \
  /usr/include/c++/12/limits /usr/include/c++/12/ctime \
  /usr/include/c++/12/bits/parse_numbers.h /usr/include/c++/12/chrono \
- /home/patrygie/CppProjektyGitHub/Snake/src/../inc/ThreadKeyboard.hpp \
- /home/patrygie/CppProjektyGitHub/Snake/src/../inc/ThreadScreen.hpp \
- /home/patrygie/CppProjektyGitHub/Snake/src/../inc/../inc/Window.hpp \
+ /home/patrygie/CppProjektyGitHub/Snake/src/../inc/app.hpp \
+ /home/patrygie/CppProjektyGitHub/Snake/src/../inc/Window.hpp \
  /usr/include/curses.h /usr/include/ncurses_dll.h /usr/include/unctrl.h \
  /usr/include/curses.h /usr/include/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
@@ -167,9 +166,9 @@ CMakeFiles/Snake.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h \
- /home/patrygie/CppProjektyGitHub/Snake/src/../inc/../inc/Board.hpp \
- /home/patrygie/CppProjektyGitHub/Snake/src/../inc/../inc/Snake.hpp \
+ /home/patrygie/CppProjektyGitHub/Snake/src/../inc/Board.hpp \
+ /home/patrygie/CppProjektyGitHub/Snake/src/../inc/Snake.hpp \
  /usr/include/c++/12/vector /usr/include/c++/12/bits/stl_uninitialized.h \
  /usr/include/c++/12/bits/stl_vector.h \
  /usr/include/c++/12/bits/stl_bvector.h \
- /usr/include/c++/12/bits/vector.tcc
+ /usr/include/c++/12/bits/vector.tcc /usr/include/c++/12/stdlib.h

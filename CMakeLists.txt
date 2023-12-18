@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.14)
 project(Snake)
-add_executable(${PROJECT_NAME} src/main.cpp src/Board.cpp src/Window.cpp src/Snake.cpp)
+add_executable(${PROJECT_NAME} src/main.cpp src/app.cpp src/Board.cpp src/Window.cpp src/Snake.cpp)
 
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
