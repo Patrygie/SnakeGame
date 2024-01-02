@@ -9,47 +9,39 @@ void th_screen()
     Board board(100, 50);
 	board.print_boarders();
 
-    Snake head(50, 25);
+    Snake snake(50, 25);
+    for(int i = 0; i < 40; ++i)
+    {
+        snake.push_back();
+    }
 
-    Snake p1(head.x_prev, head.y_prev);
-
-    Snake p2(p1.x_prev, p1.y_prev);
-    
     while(true)
     {
-        // p1.clear();
-        p2.clear();
+        snake.clear();
+     
         if(keyInput == 'A')
         {
-            p2.print_raw(p1.x_prev, p1.y_prev);
-            p1.print_raw(head.x_prev, head.y_prev);
-            head.print_rel(0, -1);
+            snake.go_up();
+
         }
         else if(keyInput == 'B')
         {
-            p2.print_raw(p1.x_prev, p1.y_prev);
-            p1.print_raw(head.x_prev, head.y_prev);
-            head.print_rel(0, 1);
+            snake.go_down();
         }
         else if(keyInput == 'C')
         {
-            p2.print_raw(p1.x_prev, p1.y_prev);
-            p1.print_raw(head.x_prev, head.y_prev);
-            head.print_rel(1, 0);
+            snake.go_right();
         }
         else if(keyInput == 'D')
         {
-            p2.print_raw(p1.x_prev, p1.y_prev);
-            p1.print_raw(head.x_prev, head.y_prev);
-            head.print_rel(-1, 0);
+            snake.go_left();
         }
         else if(keyInput == 'q')
         {
             break;
         }
     }
-        // std::this_thread::sleep_for(500ms);
-
+    
     move(25, 50);
     printw("FINISH");
     refresh();

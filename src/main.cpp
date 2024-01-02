@@ -15,6 +15,24 @@ int main()
     
     CaptureKeys.join();
     PrintGame.join();
+    
+    // std::vector<int> x{};
+
+    // int * a;// = new int{4};
+
+    // for(int i = 0; i < 3; ++i)
+    // {
+    //     a = new int{i};
+    //     x.push_back(*a);
+    // }
+    // std::cout << x[0] << '\n';
+    // std::cout << x[1] << '\n';
+    // std::cout << x[2] << '\n';
+    // // x.pop_back();
+    // std::cout << x.size() << '\n';
+    
+    // std::cout << *a << '\n';
+;
 
     return 0;
 }
