@@ -5,43 +5,46 @@ void th_screen()
 {
     Window W;
     W.init_window();
-    
+
     Board board(100, 50);
-	board.print_boarders();
+    board.print_boarders();
 
     Snake snake(50, 25);
-    for(int i = 0; i < 40; ++i)
+    for (int i = 0; i < 40; ++i)
     {
         snake.push_back();
     }
 
-    while(true)
+    while (true)
     {
         snake.clear();
-     
-        if(keyInput == 'A')
+
+        if (dir == UP)
         {
             snake.go_up();
-
+            dir_before = UP;
         }
-        else if(keyInput == 'B')
+        else if (dir == DOWN)
         {
             snake.go_down();
+            dir_before = DOWN;
         }
-        else if(keyInput == 'C')
+        else if (dir == RIGHT)
         {
             snake.go_right();
+            dir_before = RIGHT;
         }
-        else if(keyInput == 'D')
+        else if (dir == LEFT)
         {
             snake.go_left();
+            dir_before = LEFT;
         }
-        else if(keyInput == 'q')
+        else if (dir == QUIT)
         {
             break;
         }
     }
-    
+
     move(25, 50);
     printw("FINISH");
     refresh();
@@ -51,10 +54,32 @@ void th_screen()
 
 void th_keyboard()
 {
-    while(keyInput != 'q')
+    while(dir != QUIT)
     {
         system("stty raw");
-        keyInput = getchar();
+        key = getchar();
+
+        if (key == UP and dir_before != DOWN)
+        {
+            dir = key;
+        }
+        else if (key == DOWN and dir_before != UP)
+        {
+            dir = key;
+        }
+        else if (key == LEFT and dir_before != RIGHT)
+        {
+            dir = key;
+        }
+        else if (key == RIGHT and dir_before != LEFT)
+        {
+            dir = key;
+        }
+        else if (key == QUIT)
+        {
+            dir = key;
+        }
+        else{}
         system("stty cooked"); 
     }
 }
