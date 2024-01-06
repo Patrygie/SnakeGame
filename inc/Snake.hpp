@@ -3,6 +3,7 @@
 #include <ncurses.h>
 #include <unistd.h>
 #include <vector>
+#include <algorithm>
 
 class Snake
 {
@@ -19,21 +20,11 @@ private:
     std::vector<SnakeSegment> _s;
     
 public:
-    Snake(int x, int y)
-    {
-        SnakeSegment* head = new SnakeSegment{};
-        head->x_prev = x;
-        head->y_prev = y;
-        head->x_next = 0;
-        head->y_next = 0;
-        head->sign = "O";
-        _s.push_back(*head);
-        print_rel_head(head->x_prev, head->y_prev);
-    }
+    Snake(int x, int y);
 
 private:
     void print_rel_head(int dt_x, int dt_y);
-    void print_segments();
+    void print_ruth_segments();
 
 public:
     void clear();
@@ -44,4 +35,5 @@ public:
     void go_right();
     int get_head_x() const;
     int get_head_y() const;
+    bool is_collision();
 };

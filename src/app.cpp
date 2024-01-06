@@ -8,50 +8,53 @@ void th_screen()
 
     Board board(100, 50);
     board.print_boarders();
+
     Snack snack(board.get_width(), board.get_heigth(), "$");
     snack.spawn();
+
     Snake snake(50, 25);
 
     while (true)
     {
         snake.clear();
 
-        if (dir == UP)
+        switch (dir)
         {
+        case UP:
             snake.go_up();
             dir_before = UP;
-        }
-        else if (dir == DOWN)
-        {
+            break;
+        case DOWN:
             snake.go_down();
             dir_before = DOWN;
-        }
-        else if (dir == RIGHT)
-        {
+            break;
+        case RIGHT:
             snake.go_right();
             dir_before = RIGHT;
-        }
-        else if (dir == LEFT)
-        {
+            break;
+        case LEFT:
             snake.go_left();
             dir_before = LEFT;
-        }
-        else if (dir == QUIT)
-        {
             break;
         }
 
-        if(snack.get_x() == snake.get_head_x() and snack.get_y() == snake.get_head_y())
+        if (snack.get_x() == snake.get_head_x() and snack.get_y() == snake.get_head_y())
         {
             snake.push_back();
             snack.spawn();
+        }
+
+        if (dir == QUIT or snake.is_collision())
+        {
+            dir = QUIT;
+            break;
         }
     }
 
     move(25, 50);
     printw("FINISH");
     refresh();
-    
+
     W.exit_window();
 }
 

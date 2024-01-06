@@ -4,11 +4,11 @@
 class Board : public Window
 {
 private:
-    int width;
-    int heigth;
+    int _width;
+    int _heigth;
 
 public:
-    Board(int w, int h) : width(w), heigth(h){}
+    Board(int w, int h) : _width(w), _heigth(h) {}
 
 public:
     void print_boarders();

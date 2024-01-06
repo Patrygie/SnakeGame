@@ -1,9 +1,20 @@
 
 #include "../inc/Snake.hpp"
 
+Snake::Snake(int x, int y)
+{
+    SnakeSegment* head = new SnakeSegment{};
+    head->x_prev = x;
+    head->y_prev = y;
+    head->x_next = 0;
+    head->y_next = 0;
+    head->sign = "O";
+    _s.push_back(*head);
+    print_rel_head(head->x_prev, head->y_prev);
+}
+
 void Snake::print_rel_head(int dt_x, int dt_y)
 {
-    //add operator for SnakeSegment, return only first element
     _s[0].x_prev = _s[0].x_next;
     _s[0].y_prev = _s[0].y_next;
 
@@ -16,7 +27,7 @@ void Snake::print_rel_head(int dt_x, int dt_y)
     refresh();
 }
 
-void Snake::print_segments()
+void Snake::print_ruth_segments()
 {
     for(int i = 1; i < _s.size(); ++i)
     {
@@ -53,25 +64,25 @@ void Snake::push_back()
 void Snake::go_up()
 {
     print_rel_head(0, -1);
-    print_segments();
+    print_ruth_segments();
 }
 
 void Snake::go_down()
 {
     print_rel_head(0, 1);
-    print_segments();
+    print_ruth_segments();
 }
 
 void Snake::go_left()
 {
     print_rel_head(-1, 0);
-    print_segments();
+    print_ruth_segments();
 }
 
 void Snake::go_right()
 {
     print_rel_head(1, 0);
-    print_segments();
+    print_ruth_segments();
 }
 
 int Snake::get_head_x() const
@@ -82,4 +93,11 @@ int Snake::get_head_x() const
 int Snake::get_head_y() const
 {
     return _s.front().y_next;
+}
+
+bool Snake::is_collision()
+{
+    return std::any_of(_s.begin() + 1, _s.end(), [&](SnakeSegment i){
+         return (_s[0].x_next == i.x_next) and (_s[0].y_next == i.y_next); 
+         });
 }
