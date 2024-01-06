@@ -2,6 +2,7 @@
 #include "Window.hpp"
 #include "Board.hpp"
 #include "Snake.hpp"
+#include "Snack.hpp"
 #include <stdlib.h>
 
 #define UP 'A'

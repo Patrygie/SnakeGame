@@ -73,3 +73,13 @@ void Snake::go_right()
     print_rel_head(1, 0);
     print_segments();
 }
+
+int Snake::get_head_x() const
+{
+    return _s.front().x_next;
+}
+
+int Snake::get_head_y() const
+{
+    return _s.front().y_next;
+}

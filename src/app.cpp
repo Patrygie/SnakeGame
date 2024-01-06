@@ -8,12 +8,9 @@ void th_screen()
 
     Board board(100, 50);
     board.print_boarders();
-
+    Snack snack(board.get_width(), board.get_heigth(), "$");
+    snack.spawn();
     Snake snake(50, 25);
-    for (int i = 0; i < 40; ++i)
-    {
-        snake.push_back();
-    }
 
     while (true)
     {
@@ -42,6 +39,12 @@ void th_screen()
         else if (dir == QUIT)
         {
             break;
+        }
+
+        if(snack.get_x() == snake.get_head_x() and snack.get_y() == snake.get_head_y())
+        {
+            snake.push_back();
+            snack.spawn();
         }
     }
 

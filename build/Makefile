@@ -273,6 +273,30 @@ src/Board.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/src/Board.cpp.s
 .PHONY : src/Board.cpp.s
 
+src/Snack.o: src/Snack.cpp.o
+.PHONY : src/Snack.o
+
+# target to build an object file
+src/Snack.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/src/Snack.cpp.o
+.PHONY : src/Snack.cpp.o
+
+src/Snack.i: src/Snack.cpp.i
+.PHONY : src/Snack.i
+
+# target to preprocess a source file
+src/Snack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/src/Snack.cpp.i
+.PHONY : src/Snack.cpp.i
+
+src/Snack.s: src/Snack.cpp.s
+.PHONY : src/Snack.s
+
+# target to generate assembly for a file
+src/Snack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/src/Snack.cpp.s
+.PHONY : src/Snack.cpp.s
+
 src/Snake.o: src/Snake.cpp.o
 .PHONY : src/Snake.o
 
@@ -415,6 +439,9 @@ help:
 	@echo "... src/Board.o"
 	@echo "... src/Board.i"
 	@echo "... src/Board.s"
+	@echo "... src/Snack.o"
+	@echo "... src/Snack.i"
+	@echo "... src/Snack.s"
 	@echo "... src/Snake.o"
 	@echo "... src/Snake.i"
 	@echo "... src/Snake.s"

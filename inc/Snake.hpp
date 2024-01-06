@@ -3,7 +3,6 @@
 #include <ncurses.h>
 #include <unistd.h>
 #include <vector>
-#include <string>
 
 class Snake
 {
@@ -43,4 +42,6 @@ public:
     void go_down();
     void go_left();
     void go_right();
+    int get_head_x() const;
+    int get_head_y() const;
 };

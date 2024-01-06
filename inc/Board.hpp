@@ -12,6 +12,6 @@ public:
 
 public:
     void print_boarders();
-    int const get_width();
-    int const get_heigth();
+    int get_width() const;
+    int get_heigth() const;
 };

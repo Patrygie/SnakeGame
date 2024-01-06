@@ -9,12 +9,12 @@ void Board::print_boarders()
     wrefresh(win);
 }
 
-int const Board::get_width()
+int Board::get_width() const
 {
     return width;
 }
 
-int const Board::get_heigth()
+int Board::get_heigth() const
 {
     return heigth;
 }

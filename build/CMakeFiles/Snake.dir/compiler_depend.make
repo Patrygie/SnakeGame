@@ -53,6 +53,194 @@ CMakeFiles/Snake.dir/src/Board.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h
 
+CMakeFiles/Snake.dir/src/Snack.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/Snack.cpp \
+  /usr/include/stdc-predef.h \
+  /home/patrygie/CppProjektyGitHub/Snake/inc/Snack.hpp \
+  /usr/include/curses.h \
+  /usr/include/ncurses_dll.h \
+  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/features.h \
+  /usr/include/features-time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/stdio.h \
+  /usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/unctrl.h \
+  /usr/include/curses.h \
+  /usr/include/c++/12/random \
+  /usr/include/c++/12/cmath \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/cpu_defines.h \
+  /usr/include/c++/12/pstl/pstl_config.h \
+  /usr/include/c++/12/bits/cpp_type_traits.h \
+  /usr/include/c++/12/ext/type_traits.h \
+  /usr/include/math.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/c++/12/bits/std_abs.h \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/c++/12/bits/specfun.h \
+  /usr/include/c++/12/bits/stl_algobase.h \
+  /usr/include/c++/12/bits/functexcept.h \
+  /usr/include/c++/12/bits/exception_defines.h \
+  /usr/include/c++/12/ext/numeric_traits.h \
+  /usr/include/c++/12/bits/stl_pair.h \
+  /usr/include/c++/12/type_traits \
+  /usr/include/c++/12/bits/move.h \
+  /usr/include/c++/12/bits/utility.h \
+  /usr/include/c++/12/bits/stl_iterator_base_types.h \
+  /usr/include/c++/12/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/12/bits/concept_check.h \
+  /usr/include/c++/12/debug/assertions.h \
+  /usr/include/c++/12/bits/stl_iterator.h \
+  /usr/include/c++/12/bits/ptr_traits.h \
+  /usr/include/c++/12/debug/debug.h \
+  /usr/include/c++/12/bits/predefined_ops.h \
+  /usr/include/c++/12/limits \
+  /usr/include/c++/12/tr1/gamma.tcc \
+  /usr/include/c++/12/tr1/special_function_util.h \
+  /usr/include/c++/12/tr1/bessel_function.tcc \
+  /usr/include/c++/12/tr1/beta_function.tcc \
+  /usr/include/c++/12/tr1/ell_integral.tcc \
+  /usr/include/c++/12/tr1/exp_integral.tcc \
+  /usr/include/c++/12/tr1/hypergeometric.tcc \
+  /usr/include/c++/12/tr1/legendre_function.tcc \
+  /usr/include/c++/12/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/12/tr1/poly_hermite.tcc \
+  /usr/include/c++/12/tr1/poly_laguerre.tcc \
+  /usr/include/c++/12/tr1/riemann_zeta.tcc \
+  /usr/include/c++/12/cstdlib \
+  /usr/include/c++/12/string \
+  /usr/include/c++/12/bits/stringfwd.h \
+  /usr/include/c++/12/bits/memoryfwd.h \
+  /usr/include/c++/12/bits/char_traits.h \
+  /usr/include/c++/12/bits/postypes.h \
+  /usr/include/c++/12/cwchar \
+  /usr/include/c++/12/cstdint \
+  /usr/include/c++/12/bits/allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h \
+  /usr/include/c++/12/bits/new_allocator.h \
+  /usr/include/c++/12/new \
+  /usr/include/c++/12/bits/exception.h \
+  /usr/include/c++/12/bits/localefwd.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/c++locale.h \
+  /usr/include/c++/12/clocale \
+  /usr/include/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/c++/12/iosfwd \
+  /usr/include/c++/12/cctype \
+  /usr/include/ctype.h \
+  /usr/include/c++/12/bits/ostream_insert.h \
+  /usr/include/c++/12/bits/cxxabi_forced.h \
+  /usr/include/c++/12/bits/stl_function.h \
+  /usr/include/c++/12/backward/binders.h \
+  /usr/include/c++/12/bits/refwrap.h \
+  /usr/include/c++/12/bits/invoke.h \
+  /usr/include/c++/12/bits/range_access.h \
+  /usr/include/c++/12/initializer_list \
+  /usr/include/c++/12/bits/basic_string.h \
+  /usr/include/c++/12/ext/alloc_traits.h \
+  /usr/include/c++/12/bits/alloc_traits.h \
+  /usr/include/c++/12/bits/stl_construct.h \
+  /usr/include/c++/12/string_view \
+  /usr/include/c++/12/bits/functional_hash.h \
+  /usr/include/c++/12/bits/hash_bytes.h \
+  /usr/include/c++/12/bits/string_view.tcc \
+  /usr/include/c++/12/ext/string_conversions.h \
+  /usr/include/c++/12/cstdio \
+  /usr/include/c++/12/cerrno \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/c++/12/bits/charconv.h \
+  /usr/include/c++/12/bits/basic_string.tcc \
+  /usr/include/c++/12/bits/random.h \
+  /usr/include/c++/12/vector \
+  /usr/include/c++/12/bits/stl_uninitialized.h \
+  /usr/include/c++/12/bits/stl_vector.h \
+  /usr/include/c++/12/bits/stl_bvector.h \
+  /usr/include/c++/12/bits/vector.tcc \
+  /usr/include/c++/12/bits/uniform_int_dist.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/opt_random.h \
+  /usr/include/c++/12/bits/random.tcc \
+  /usr/include/c++/12/numeric \
+  /usr/include/c++/12/bits/stl_numeric.h \
+  /usr/include/c++/12/bit \
+  /usr/include/c++/12/pstl/glue_numeric_defs.h \
+  /usr/include/c++/12/pstl/execution_defs.h \
+  /usr/include/c++/12/ctime \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h
+
 CMakeFiles/Snake.dir/src/Snake.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/Snake.cpp \
   /usr/include/stdc-predef.h \
   /home/patrygie/CppProjektyGitHub/Snake/inc/Snake.hpp \
@@ -146,67 +334,7 @@ CMakeFiles/Snake.dir/src/Snake.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src
   /usr/include/c++/12/bits/stl_function.h \
   /usr/include/c++/12/backward/binders.h \
   /usr/include/c++/12/bits/range_access.h \
-  /usr/include/c++/12/bits/vector.tcc \
-  /usr/include/c++/12/string \
-  /usr/include/c++/12/bits/stringfwd.h \
-  /usr/include/c++/12/bits/char_traits.h \
-  /usr/include/c++/12/bits/postypes.h \
-  /usr/include/c++/12/cwchar \
-  /usr/include/c++/12/cstdint \
-  /usr/include/c++/12/bits/localefwd.h \
-  /usr/include/x86_64-linux-gnu/c++/12/bits/c++locale.h \
-  /usr/include/c++/12/clocale \
-  /usr/include/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/c++/12/iosfwd \
-  /usr/include/c++/12/cctype \
-  /usr/include/ctype.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/c++/12/bits/ostream_insert.h \
-  /usr/include/c++/12/bits/cxxabi_forced.h \
-  /usr/include/c++/12/bits/basic_string.h \
-  /usr/include/c++/12/string_view \
-  /usr/include/c++/12/bits/string_view.tcc \
-  /usr/include/c++/12/ext/string_conversions.h \
-  /usr/include/c++/12/cstdlib \
-  /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/c++/12/bits/std_abs.h \
-  /usr/include/c++/12/cstdio \
-  /usr/include/c++/12/cerrno \
-  /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/c++/12/bits/charconv.h \
-  /usr/include/c++/12/bits/basic_string.tcc
+  /usr/include/c++/12/bits/vector.tcc
 
 CMakeFiles/Snake.dir/src/Window.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/Window.cpp \
   /usr/include/stdc-predef.h \
@@ -356,29 +484,20 @@ CMakeFiles/Snake.dir/src/app.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/a
   /usr/include/c++/12/backward/binders.h \
   /usr/include/c++/12/bits/range_access.h \
   /usr/include/c++/12/bits/vector.tcc \
-  /usr/include/c++/12/string \
-  /usr/include/c++/12/bits/stringfwd.h \
-  /usr/include/c++/12/bits/char_traits.h \
-  /usr/include/c++/12/bits/postypes.h \
-  /usr/include/c++/12/cwchar \
-  /usr/include/c++/12/cstdint \
-  /usr/include/c++/12/bits/localefwd.h \
-  /usr/include/x86_64-linux-gnu/c++/12/bits/c++locale.h \
-  /usr/include/c++/12/clocale \
-  /usr/include/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/c++/12/iosfwd \
-  /usr/include/c++/12/cctype \
-  /usr/include/ctype.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/c++/12/bits/ostream_insert.h \
-  /usr/include/c++/12/bits/cxxabi_forced.h \
-  /usr/include/c++/12/bits/basic_string.h \
-  /usr/include/c++/12/string_view \
-  /usr/include/c++/12/bits/string_view.tcc \
-  /usr/include/c++/12/ext/string_conversions.h \
-  /usr/include/c++/12/cstdlib \
+  /home/patrygie/CppProjektyGitHub/Snake/inc/Snack.hpp \
+  /usr/include/c++/12/random \
+  /usr/include/c++/12/cmath \
+  /usr/include/math.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/c++/12/bits/std_abs.h \
   /usr/include/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
@@ -388,6 +507,8 @@ CMakeFiles/Snake.dir/src/app.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/a
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
   /usr/include/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap.h \
   /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
@@ -404,7 +525,41 @@ CMakeFiles/Snake.dir/src/app.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/a
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/c++/12/bits/std_abs.h \
+  /usr/include/c++/12/bits/specfun.h \
+  /usr/include/c++/12/limits \
+  /usr/include/c++/12/tr1/gamma.tcc \
+  /usr/include/c++/12/tr1/special_function_util.h \
+  /usr/include/c++/12/tr1/bessel_function.tcc \
+  /usr/include/c++/12/tr1/beta_function.tcc \
+  /usr/include/c++/12/tr1/ell_integral.tcc \
+  /usr/include/c++/12/tr1/exp_integral.tcc \
+  /usr/include/c++/12/tr1/hypergeometric.tcc \
+  /usr/include/c++/12/tr1/legendre_function.tcc \
+  /usr/include/c++/12/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/12/tr1/poly_hermite.tcc \
+  /usr/include/c++/12/tr1/poly_laguerre.tcc \
+  /usr/include/c++/12/tr1/riemann_zeta.tcc \
+  /usr/include/c++/12/cstdlib \
+  /usr/include/c++/12/string \
+  /usr/include/c++/12/bits/stringfwd.h \
+  /usr/include/c++/12/bits/char_traits.h \
+  /usr/include/c++/12/bits/postypes.h \
+  /usr/include/c++/12/cwchar \
+  /usr/include/c++/12/cstdint \
+  /usr/include/c++/12/bits/localefwd.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/c++locale.h \
+  /usr/include/c++/12/clocale \
+  /usr/include/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/c++/12/iosfwd \
+  /usr/include/c++/12/cctype \
+  /usr/include/ctype.h \
+  /usr/include/c++/12/bits/ostream_insert.h \
+  /usr/include/c++/12/bits/cxxabi_forced.h \
+  /usr/include/c++/12/bits/basic_string.h \
+  /usr/include/c++/12/string_view \
+  /usr/include/c++/12/bits/string_view.tcc \
+  /usr/include/c++/12/ext/string_conversions.h \
   /usr/include/c++/12/cstdio \
   /usr/include/c++/12/cerrno \
   /usr/include/errno.h \
@@ -416,6 +571,21 @@ CMakeFiles/Snake.dir/src/app.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/a
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/12/bits/charconv.h \
   /usr/include/c++/12/bits/basic_string.tcc \
+  /usr/include/c++/12/bits/random.h \
+  /usr/include/c++/12/bits/uniform_int_dist.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/opt_random.h \
+  /usr/include/c++/12/bits/random.tcc \
+  /usr/include/c++/12/numeric \
+  /usr/include/c++/12/bits/stl_numeric.h \
+  /usr/include/c++/12/bit \
+  /usr/include/c++/12/pstl/glue_numeric_defs.h \
+  /usr/include/c++/12/pstl/execution_defs.h \
+  /usr/include/c++/12/ctime \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
   /usr/include/c++/12/stdlib.h
 
 CMakeFiles/Snake.dir/src/main.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/main.cpp \
@@ -634,18 +804,47 @@ CMakeFiles/Snake.dir/src/main.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/
   /usr/include/c++/12/bits/stl_vector.h \
   /usr/include/c++/12/bits/stl_bvector.h \
   /usr/include/c++/12/bits/vector.tcc \
+  /home/patrygie/CppProjektyGitHub/Snake/inc/Snack.hpp \
+  /usr/include/c++/12/random \
+  /usr/include/c++/12/cmath \
+  /usr/include/math.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/c++/12/bits/specfun.h \
+  /usr/include/c++/12/tr1/gamma.tcc \
+  /usr/include/c++/12/tr1/special_function_util.h \
+  /usr/include/c++/12/tr1/bessel_function.tcc \
+  /usr/include/c++/12/tr1/beta_function.tcc \
+  /usr/include/c++/12/tr1/ell_integral.tcc \
+  /usr/include/c++/12/tr1/exp_integral.tcc \
+  /usr/include/c++/12/tr1/hypergeometric.tcc \
+  /usr/include/c++/12/tr1/legendre_function.tcc \
+  /usr/include/c++/12/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/12/tr1/poly_hermite.tcc \
+  /usr/include/c++/12/tr1/poly_laguerre.tcc \
+  /usr/include/c++/12/tr1/riemann_zeta.tcc \
+  /usr/include/c++/12/bits/random.h \
+  /usr/include/c++/12/bits/uniform_int_dist.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/opt_random.h \
+  /usr/include/c++/12/bits/random.tcc \
+  /usr/include/c++/12/numeric \
+  /usr/include/c++/12/bits/stl_numeric.h \
+  /usr/include/c++/12/bit \
+  /usr/include/c++/12/pstl/glue_numeric_defs.h \
+  /usr/include/c++/12/pstl/execution_defs.h \
   /usr/include/c++/12/stdlib.h
 
 
 /usr/include/c++/12/chrono:
 
-/usr/include/c++/12/limits:
-
 /usr/include/c++/12/bits/chrono.h:
-
-/usr/include/c++/12/ctime:
-
-/usr/include/c++/12/bits/basic_ios.tcc:
 
 /usr/include/c++/12/bits/unique_ptr.h:
 
@@ -656,8 +855,6 @@ CMakeFiles/Snake.dir/src/main.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/
 /usr/include/c++/12/bits/ostream.tcc:
 
 /usr/include/c++/12/bits/locale_facets.h:
-
-/usr/include/c++/12/bits/basic_ios.h:
 
 /usr/include/c++/12/bits/parse_numbers.h:
 
@@ -671,12 +868,6 @@ CMakeFiles/Snake.dir/src/main.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
-/usr/include/x86_64-linux-gnu/bits/timex.h:
-
-/usr/include/c++/12/bits/this_thread_sleep.h:
-
-/usr/include/x86_64-linux-gnu/bits/time.h:
-
 /usr/include/c++/12/bits/locale_facets.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/sched.h:
@@ -684,8 +875,6 @@ CMakeFiles/Snake.dir/src/main.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/
 /usr/include/pthread.h:
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/gthr-default.h:
-
-/usr/include/x86_64-linux-gnu/c++/12/bits/gthr.h:
 
 /usr/include/c++/12/bits/ios_base.h:
 
@@ -695,11 +884,7 @@ CMakeFiles/Snake.dir/src/main.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/
 
 /usr/include/c++/12/bits/exception_ptr.h:
 
-/usr/include/c++/12/exception:
-
 /usr/include/c++/12/ios:
-
-/usr/include/c++/12/ostream:
 
 /usr/include/sched.h:
 
@@ -707,11 +892,41 @@ CMakeFiles/Snake.dir/src/main.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/
 
 /home/patrygie/CppProjektyGitHub/Snake/src/Window.cpp:
 
+/home/patrygie/CppProjektyGitHub/Snake/inc/Snake.hpp:
+
+/home/patrygie/CppProjektyGitHub/Snake/src/Snake.cpp:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/include/c++/12/bits/this_thread_sleep.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/c++/12/bits/basic_ios.tcc:
+
+/usr/include/c++/12/ctime:
+
+/usr/include/c++/12/bits/basic_ios.h:
+
+/usr/include/c++/12/pstl/execution_defs.h:
+
+/usr/include/c++/12/bit:
+
+/usr/include/c++/12/bits/stl_bvector.h:
+
+/usr/include/c++/12/bits/stl_vector.h:
+
+/usr/include/c++/12/bits/stl_uninitialized.h:
+
+/usr/include/c++/12/bits/streambuf_iterator.h:
+
+/usr/include/c++/12/numeric:
+
+/usr/include/c++/12/vector:
+
 /usr/include/c++/12/bits/basic_string.tcc:
 
 /usr/include/c++/12/bits/charconv.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
 /usr/include/asm-generic/errno.h:
 
@@ -725,33 +940,49 @@ CMakeFiles/Snake.dir/src/main.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/
 
 /usr/include/errno.h:
 
-/usr/include/alloca.h:
+/usr/include/c++/12/ext/string_conversions.h:
 
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+/usr/include/c++/12/bits/hash_bytes.h:
 
-/usr/include/c++/12/cstdio:
+/usr/include/c++/12/bits/stl_construct.h:
 
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+/usr/include/c++/12/bits/alloc_traits.h:
 
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+/usr/include/c++/12/ext/alloc_traits.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+/usr/include/c++/12/initializer_list:
 
-/usr/include/x86_64-linux-gnu/asm/errno.h:
+/usr/include/time.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+/usr/include/c++/12/bits/range_access.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+/usr/include/c++/12/backward/binders.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+/usr/include/c++/12/bits/stl_function.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+/usr/include/c++/12/bits/cxxabi_forced.h:
 
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+/usr/include/ctype.h:
 
-/usr/include/endian.h:
+/usr/include/c++/12/iosfwd:
 
-/usr/include/c++/12/bits/stl_vector.h:
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+
+/usr/include/c++/12/bits/localefwd.h:
+
+/usr/include/c++/12/new:
+
+/usr/include/c++/12/bits/allocator.h:
+
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+
+/usr/include/c++/12/bits/postypes.h:
+
+/usr/include/c++/12/bits/char_traits.h:
+
+/usr/include/c++/12/bits/stringfwd.h:
+
+/usr/include/c++/12/tr1/riemann_zeta.tcc:
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/error_constants.h:
 
@@ -759,21 +990,33 @@ CMakeFiles/Snake.dir/src/main.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h:
 
+/usr/include/alloca.h:
+
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
+/usr/include/c++/12/bits/random.tcc:
+
+/usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
-
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
-/usr/include/c++/12/cstdlib:
 
 /usr/include/c++/12/streambuf:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+/usr/include/c++/12/bits/functional_hash.h:
+
+/usr/include/stdio.h:
+
+/usr/include/c++/12/bits/new_allocator.h:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+/home/patrygie/CppProjektyGitHub/Snake/src/Snack.cpp:
 
 /usr/include/c++/12/thread:
 
@@ -781,43 +1024,37 @@ CMakeFiles/Snake.dir/src/main.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
-/usr/include/c++/12/bits/stl_uninitialized.h:
-
-/usr/include/c++/12/bits/stl_algobase.h:
-
-/usr/include/ctype.h:
-
-/usr/include/c++/12/bits/streambuf_iterator.h:
-
-/usr/include/c++/12/vector:
-
-/home/patrygie/CppProjektyGitHub/Snake/inc/Snake.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
-/home/patrygie/CppProjektyGitHub/Snake/src/Snake.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h:
+/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
-/usr/include/c++/12/ext/string_conversions.h:
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+
+/usr/include/x86_64-linux-gnu/c++/12/bits/opt_random.h:
 
 /usr/include/stdint.h:
 
-/usr/include/c++/12/bits/char_traits.h:
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
-/usr/include/c++/12/bits/stl_pair.h:
+/usr/include/c++/12/tr1/hypergeometric.tcc:
+
+/usr/include/c++/12/cmath:
 
 /usr/include/features.h:
 
 /usr/include/c++/12/bits/istream.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/c++/12/cwchar:
+
+/home/patrygie/CppProjektyGitHub/Snake/inc/Board.hpp:
 
 /home/patrygie/CppProjektyGitHub/Snake/src/app.cpp:
 
@@ -827,7 +1064,19 @@ CMakeFiles/Snake.dir/src/main.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/
 
 /usr/include/ncurses_dll.h:
 
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/c++/12/istream:
+
+/usr/include/c++/12/stdexcept:
+
+/usr/include/c++/12/string_view:
+
+/usr/include/c++/12/cctype:
+
+/usr/include/features-time64.h:
 
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
@@ -837,33 +1086,53 @@ CMakeFiles/Snake.dir/src/main.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/
 
 /usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h:
 
-/usr/include/c++/12/ext/alloc_traits.h:
+/usr/include/c++/12/bits/basic_string.h:
+
+/usr/include/c++/12/ext/type_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/environments.h:
 
-/usr/include/time.h:
-
-/usr/include/c++/12/bits/range_access.h:
-
 /home/patrygie/CppProjektyGitHub/Snake/inc/Window.hpp:
 
+/usr/include/c++/12/bits/stl_numeric.h:
+
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/c++/12/pstl/glue_numeric_defs.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
 /home/patrygie/CppProjektyGitHub/Snake/src/Board.cpp:
 
-/usr/include/c++/12/bits/memoryfwd.h:
-
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/c++/12/cstdlib:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/include/x86_64-linux-gnu/c++/12/bits/c++locale.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
 /usr/include/c++/12/bits/locale_classes.tcc:
 
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
-
 /usr/include/c++/12/bits/exception.h:
 
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+
 /usr/include/c++/12/bits/ptr_traits.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/c++/12/bits/cpp_type_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
@@ -881,13 +1150,9 @@ CMakeFiles/Snake.dir/src/main.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/
 
 /usr/include/c++/12/type_traits:
 
+/usr/include/c++/12/tr1/modified_bessel_func.tcc:
+
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
-/usr/include/stdio.h:
-
-/usr/include/c++/12/bits/functional_hash.h:
-
-/usr/include/c++/12/bits/stringfwd.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
@@ -895,9 +1160,11 @@ CMakeFiles/Snake.dir/src/main.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/
 
 /usr/include/c++/12/bits/move.h:
 
-/usr/include/x86_64-linux-gnu/sys/select.h:
+/usr/include/c++/12/limits:
 
 /usr/include/unistd.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
@@ -909,25 +1176,31 @@ CMakeFiles/Snake.dir/src/main.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
-/usr/include/c++/12/bits/alloc_traits.h:
+/usr/include/c++/12/clocale:
 
-/usr/include/c++/12/cstdint:
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h:
+
+/usr/include/c++/12/random:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
 
 /usr/include/unctrl.h:
 
-/usr/include/c++/12/initializer_list:
+/usr/include/c++/12/cstdint:
 
-/usr/include/x86_64-linux-gnu/c++/12/bits/atomic_word.h:
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
-/usr/include/c++/12/ext/atomicity.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/usr/include/c++/12/string:
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
-/usr/include/c++/12/bits/hash_bytes.h:
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h:
+
+/usr/include/c++/12/tr1/exp_integral.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
 
@@ -935,39 +1208,29 @@ CMakeFiles/Snake.dir/src/main.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
-/usr/include/c++/12/bits/postypes.h:
+/usr/include/c++/12/tr1/poly_laguerre.tcc:
 
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+/usr/include/c++/12/bits/stl_pair.h:
 
-/usr/include/c++/12/bits/cpp_type_traits.h:
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
-/usr/include/c++/12/bits/allocator.h:
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
-/usr/include/c++/12/pstl/pstl_config.h:
+/usr/include/c++/12/exception:
 
-/usr/include/c++/12/ext/numeric_traits.h:
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
-/usr/include/c++/12/bits/utility.h:
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
-/usr/include/c++/12/bits/stl_iterator.h:
+/usr/include/c++/12/bits/stl_algobase.h:
 
-/usr/include/c++/12/ratio:
+/usr/include/c++/12/bits/memoryfwd.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/usr/include/x86_64-linux-gnu/c++/12/bits/ctype_base.h:
-
-/usr/include/c++/12/bits/stl_iterator_base_types.h:
-
-/usr/include/c++/12/bits/cxxabi_forced.h:
-
-/usr/include/c++/12/bits/uses_allocator.h:
-
-/usr/include/c++/12/bits/stl_iterator_base_funcs.h:
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h:
 
@@ -979,93 +1242,7 @@ CMakeFiles/Snake.dir/src/main.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/
 
 /usr/include/c++/12/debug/debug.h:
 
-/usr/include/c++/12/bits/std_abs.h:
-
-/usr/include/c++/12/debug/assertions.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
-
-/usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h:
-
-/usr/include/c++/12/bits/ostream_insert.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/usr/include/x86_64-linux-gnu/bits/endian.h:
-
-/usr/include/x86_64-linux-gnu/bits/confname.h:
-
-/usr/include/c++/12/bits/new_allocator.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
-/usr/include/c++/12/new:
-
-/usr/include/c++/12/bits/stl_construct.h:
-
-/usr/include/c++/12/stdlib.h:
-
-/usr/include/c++/12/cerrno:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/c++/12/bits/refwrap.h:
-
-/usr/include/c++/12/bits/stl_bvector.h:
-
-/usr/include/c++/12/bits/stl_function.h:
-
-/usr/include/c++/12/backward/binders.h:
-
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h:
-
-/usr/include/c++/12/clocale:
-
-/usr/include/c++/12/bits/functexcept.h:
-
-/usr/include/c++/12/bits/predefined_ops.h:
-
-/usr/include/c++/12/bits/invoke.h:
-
-/usr/include/c++/12/bits/vector.tcc:
-
-/home/patrygie/CppProjektyGitHub/Snake/inc/Board.hpp:
-
-/usr/include/c++/12/cwchar:
-
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/x86_64-linux-gnu/c++/12/bits/c++locale.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/usr/include/locale.h:
-
-/usr/include/c++/12/bits/localefwd.h:
-
-/usr/include/x86_64-linux-gnu/bits/locale.h:
-
-/usr/include/c++/12/iosfwd:
-
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
-
-/usr/include/c++/12/ext/type_traits.h:
-
-/usr/include/c++/12/bits/basic_string.h:
-
-/usr/include/c++/12/istream:
-
-/usr/include/c++/12/stdexcept:
-
-/usr/include/features-time64.h:
-
-/usr/include/c++/12/cctype:
-
-/usr/include/c++/12/string_view:
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
 /usr/include/c++/12/bits/string_view.tcc:
 
@@ -1073,6 +1250,106 @@ CMakeFiles/Snake.dir/src/main.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/home/patrygie/CppProjektyGitHub/Snake/inc/Snack.hpp:
+
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/c++/12/tr1/poly_hermite.tcc:
+
+/usr/include/c++/12/ratio:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/include/locale.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/c++/12/bits/utility.h:
+
+/usr/include/c++/12/bits/stl_iterator.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/usr/include/endian.h:
+
+/usr/include/c++/12/bits/random.h:
+
+/usr/include/c++/12/bits/ostream_insert.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/c++/12/stdlib.h:
+
+/usr/include/c++/12/cerrno:
+
+/usr/include/c++/12/bits/refwrap.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/c++/12/cstdio:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/x86_64-linux-gnu/c++/12/bits/atomic_word.h:
+
+/usr/include/c++/12/ext/atomicity.h:
+
+/usr/include/c++/12/string:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/include/c++/12/bits/specfun.h:
+
+/usr/include/c++/12/bits/vector.tcc:
+
+/usr/include/c++/12/bits/invoke.h:
+
+/usr/include/c++/12/bits/predefined_ops.h:
+
+/usr/include/c++/12/bits/functexcept.h:
+
+/usr/include/c++/12/pstl/pstl_config.h:
+
+/usr/include/math.h:
+
+/usr/include/c++/12/ext/numeric_traits.h:
+
+/usr/include/x86_64-linux-gnu/c++/12/bits/ctype_base.h:
+
+/usr/include/c++/12/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/12/bits/uses_allocator.h:
+
+/usr/include/c++/12/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/12/bits/uniform_int_dist.h:
+
+/usr/include/c++/12/bits/std_abs.h:
+
+/usr/include/c++/12/debug/assertions.h:
+
+/usr/include/c++/12/tr1/gamma.tcc:
+
+/usr/include/c++/12/ostream:
+
+/usr/include/c++/12/tr1/special_function_util.h:
+
+/usr/include/c++/12/tr1/bessel_function.tcc:
+
+/usr/include/x86_64-linux-gnu/c++/12/bits/gthr.h:
+
+/usr/include/c++/12/tr1/beta_function.tcc:
+
+/usr/include/c++/12/tr1/ell_integral.tcc:
+
+/usr/include/c++/12/tr1/legendre_function.tcc:

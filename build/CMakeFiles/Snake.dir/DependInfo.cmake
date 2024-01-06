@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/patrygie/CppProjektyGitHub/Snake/src/Board.cpp" "CMakeFiles/Snake.dir/src/Board.cpp.o" "gcc" "CMakeFiles/Snake.dir/src/Board.cpp.o.d"
+  "/home/patrygie/CppProjektyGitHub/Snake/src/Snack.cpp" "CMakeFiles/Snake.dir/src/Snack.cpp.o" "gcc" "CMakeFiles/Snake.dir/src/Snack.cpp.o.d"
   "/home/patrygie/CppProjektyGitHub/Snake/src/Snake.cpp" "CMakeFiles/Snake.dir/src/Snake.cpp.o" "gcc" "CMakeFiles/Snake.dir/src/Snake.cpp.o.d"
   "/home/patrygie/CppProjektyGitHub/Snake/src/Window.cpp" "CMakeFiles/Snake.dir/src/Window.cpp.o" "gcc" "CMakeFiles/Snake.dir/src/Window.cpp.o.d"
   "/home/patrygie/CppProjektyGitHub/Snake/src/app.cpp" "CMakeFiles/Snake.dir/src/app.cpp.o" "gcc" "CMakeFiles/Snake.dir/src/app.cpp.o.d"

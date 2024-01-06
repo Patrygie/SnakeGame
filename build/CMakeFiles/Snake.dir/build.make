@@ -111,10 +111,24 @@ CMakeFiles/Snake.dir/src/Board.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Snake.dir/src/Board.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/patrygie/CppProjektyGitHub/Snake/src/Board.cpp -o CMakeFiles/Snake.dir/src/Board.cpp.s
 
+CMakeFiles/Snake.dir/src/Snack.cpp.o: CMakeFiles/Snake.dir/flags.make
+CMakeFiles/Snake.dir/src/Snack.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/Snack.cpp
+CMakeFiles/Snake.dir/src/Snack.cpp.o: CMakeFiles/Snake.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrygie/CppProjektyGitHub/Snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Snake.dir/src/Snack.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Snake.dir/src/Snack.cpp.o -MF CMakeFiles/Snake.dir/src/Snack.cpp.o.d -o CMakeFiles/Snake.dir/src/Snack.cpp.o -c /home/patrygie/CppProjektyGitHub/Snake/src/Snack.cpp
+
+CMakeFiles/Snake.dir/src/Snack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Snake.dir/src/Snack.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/patrygie/CppProjektyGitHub/Snake/src/Snack.cpp > CMakeFiles/Snake.dir/src/Snack.cpp.i
+
+CMakeFiles/Snake.dir/src/Snack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Snake.dir/src/Snack.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/patrygie/CppProjektyGitHub/Snake/src/Snack.cpp -o CMakeFiles/Snake.dir/src/Snack.cpp.s
+
 CMakeFiles/Snake.dir/src/Window.cpp.o: CMakeFiles/Snake.dir/flags.make
 CMakeFiles/Snake.dir/src/Window.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/Window.cpp
 CMakeFiles/Snake.dir/src/Window.cpp.o: CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrygie/CppProjektyGitHub/Snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Snake.dir/src/Window.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrygie/CppProjektyGitHub/Snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Snake.dir/src/Window.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Snake.dir/src/Window.cpp.o -MF CMakeFiles/Snake.dir/src/Window.cpp.o.d -o CMakeFiles/Snake.dir/src/Window.cpp.o -c /home/patrygie/CppProjektyGitHub/Snake/src/Window.cpp
 
 CMakeFiles/Snake.dir/src/Window.cpp.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/Snake.dir/src/Window.cpp.s: cmake_force
 CMakeFiles/Snake.dir/src/Snake.cpp.o: CMakeFiles/Snake.dir/flags.make
 CMakeFiles/Snake.dir/src/Snake.cpp.o: /home/patrygie/CppProjektyGitHub/Snake/src/Snake.cpp
 CMakeFiles/Snake.dir/src/Snake.cpp.o: CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrygie/CppProjektyGitHub/Snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Snake.dir/src/Snake.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrygie/CppProjektyGitHub/Snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Snake.dir/src/Snake.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Snake.dir/src/Snake.cpp.o -MF CMakeFiles/Snake.dir/src/Snake.cpp.o.d -o CMakeFiles/Snake.dir/src/Snake.cpp.o -c /home/patrygie/CppProjektyGitHub/Snake/src/Snake.cpp
 
 CMakeFiles/Snake.dir/src/Snake.cpp.i: cmake_force
@@ -144,6 +158,7 @@ Snake_OBJECTS = \
 "CMakeFiles/Snake.dir/src/main.cpp.o" \
 "CMakeFiles/Snake.dir/src/app.cpp.o" \
 "CMakeFiles/Snake.dir/src/Board.cpp.o" \
+"CMakeFiles/Snake.dir/src/Snack.cpp.o" \
 "CMakeFiles/Snake.dir/src/Window.cpp.o" \
 "CMakeFiles/Snake.dir/src/Snake.cpp.o"
 
@@ -153,13 +168,14 @@ Snake_EXTERNAL_OBJECTS =
 Snake: CMakeFiles/Snake.dir/src/main.cpp.o
 Snake: CMakeFiles/Snake.dir/src/app.cpp.o
 Snake: CMakeFiles/Snake.dir/src/Board.cpp.o
+Snake: CMakeFiles/Snake.dir/src/Snack.cpp.o
 Snake: CMakeFiles/Snake.dir/src/Window.cpp.o
 Snake: CMakeFiles/Snake.dir/src/Snake.cpp.o
 Snake: CMakeFiles/Snake.dir/build.make
 Snake: /usr/lib/x86_64-linux-gnu/libcurses.so
 Snake: /usr/lib/x86_64-linux-gnu/libform.so
 Snake: CMakeFiles/Snake.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/patrygie/CppProjektyGitHub/Snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Snake"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/patrygie/CppProjektyGitHub/Snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Snake"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Snake.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
