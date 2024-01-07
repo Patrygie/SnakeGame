@@ -15,6 +15,8 @@ void th_screen()
     Snake snake;
 
     Game game;
+    game.print_start();
+    game.print_score();
 
     while (true)
     {
@@ -25,18 +27,34 @@ void th_screen()
         case UP:
             snake.go_up();
             dir_before = UP;
+            if (!game)
+            {
+                game.set_game_started();
+            }
             break;
         case DOWN:
             snake.go_down();
             dir_before = DOWN;
+            if (!game)
+            {
+                game.set_game_started();
+            }
             break;
         case RIGHT:
             snake.go_right();
             dir_before = RIGHT;
+            if (!game)
+            {
+                game.set_game_started();
+            }
             break;
         case LEFT:
             snake.go_left();
             dir_before = LEFT;
+            if (!game)
+            {
+                game.set_game_started();
+            }
             break;
         }
 
@@ -44,6 +62,7 @@ void th_screen()
         {
             snake.push_back();
             game.give_point();
+            game.print_score();
             snack.spawn();
         }
 
