@@ -5,6 +5,8 @@
 #include <vector>
 #include <algorithm>
 
+#include "Board.hpp"
+
 class Snake
 {
 private:
@@ -20,7 +22,7 @@ private:
     std::vector<SnakeSegment> _s;
     
 public:
-    Snake(int x, int y);
+    Snake();
 
 private:
     void print_rel_head(int dt_x, int dt_y);
@@ -35,5 +37,6 @@ public:
     void go_right();
     int get_head_x() const;
     int get_head_y() const;
-    bool is_collision();
+    bool is_self_collision();
+    bool is_wall_collision();
 };

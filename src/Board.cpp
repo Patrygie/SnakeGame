@@ -1,10 +1,11 @@
+
 #include "../inc/Board.hpp"
 
 void Board::print_boarders()
 {
     curs_set(0); // Cursor invisible
     refresh();
-    win = newwin(_heigth, _width, 2, 2);
+    win = newwin(_heigth, _width, CORNER_Y, CORNER_X);
     box(win, 0, 0);
     wrefresh(win);
 }

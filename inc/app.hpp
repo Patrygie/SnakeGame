@@ -1,9 +1,12 @@
- 
+#pragma once
+
+#include <stdlib.h>
+
 #include "Window.hpp"
 #include "Board.hpp"
 #include "Snake.hpp"
 #include "Snack.hpp"
-#include <stdlib.h>
+#include "Game.hpp"
 
 #define UP 'A'
 #define DOWN 'B'

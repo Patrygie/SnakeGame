@@ -156,6 +156,7 @@ CMakeFiles/Snake.dir/src/main.cpp.o: \
  /usr/include/c++/12/limits /usr/include/c++/12/ctime \
  /usr/include/c++/12/bits/parse_numbers.h /usr/include/c++/12/chrono \
  /home/patrygie/CppProjektyGitHub/Snake/src/../inc/app.hpp \
+ /usr/include/c++/12/stdlib.h \
  /home/patrygie/CppProjektyGitHub/Snake/src/../inc/Window.hpp \
  /usr/include/curses.h /usr/include/ncurses_dll.h /usr/include/unctrl.h \
  /usr/include/curses.h /usr/include/unistd.h \
@@ -207,4 +208,4 @@ CMakeFiles/Snake.dir/src/main.cpp.o: \
  /usr/include/c++/12/bits/random.tcc /usr/include/c++/12/numeric \
  /usr/include/c++/12/bits/stl_numeric.h /usr/include/c++/12/bit \
  /usr/include/c++/12/pstl/glue_numeric_defs.h \
- /usr/include/c++/12/stdlib.h
+ /home/patrygie/CppProjektyGitHub/Snake/src/../inc/Game.hpp

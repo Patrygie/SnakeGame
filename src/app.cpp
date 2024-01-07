@@ -6,13 +6,15 @@ void th_screen()
     Window W;
     W.init_window();
 
-    Board board(100, 50);
+    Board board;
     board.print_boarders();
 
-    Snack snack(board.get_width(), board.get_heigth(), "$");
+    Snack snack("$");
     snack.spawn();
 
-    Snake snake(50, 25);
+    Snake snake;
+
+    Game game;
 
     while (true)
     {
@@ -41,19 +43,20 @@ void th_screen()
         if (snack.get_x() == snake.get_head_x() and snack.get_y() == snake.get_head_y())
         {
             snake.push_back();
+            game.give_point();
             snack.spawn();
         }
 
-        if (dir == QUIT or snake.is_collision())
+        if (dir == QUIT or snake.is_self_collision() or snake.is_wall_collision())
         {
             dir = QUIT;
+            snake.clear();
             break;
         }
     }
 
-    move(25, 50);
-    printw("FINISH");
-    refresh();
+    game.print_end();
+    game.print_score();
 
     W.exit_window();
 }

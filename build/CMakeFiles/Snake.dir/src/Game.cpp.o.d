@@ -1,7 +1,9 @@
-CMakeFiles/Snake.dir/src/Snake.cpp.o: \
- /home/patrygie/CppProjektyGitHub/Snake/src/Snake.cpp \
+CMakeFiles/Snake.dir/src/Game.cpp.o: \
+ /home/patrygie/CppProjektyGitHub/Snake/src/Game.cpp \
  /usr/include/stdc-predef.h \
- /home/patrygie/CppProjektyGitHub/Snake/src/../inc/Snake.hpp \
+ /home/patrygie/CppProjektyGitHub/Snake/src/../inc/Game.hpp \
+ /home/patrygie/CppProjektyGitHub/Snake/src/../inc/Board.hpp \
+ /home/patrygie/CppProjektyGitHub/Snake/src/../inc/Window.hpp \
  /usr/include/curses.h /usr/include/ncurses_dll.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -41,8 +43,9 @@ CMakeFiles/Snake.dir/src/Snake.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /usr/include/linux/close_range.h /usr/include/c++/12/vector \
- /usr/include/c++/12/bits/stl_algobase.h \
+ /usr/include/linux/close_range.h \
+ /home/patrygie/CppProjektyGitHub/Snake/src/../inc/Snake.hpp \
+ /usr/include/c++/12/vector /usr/include/c++/12/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/cpu_defines.h \
@@ -111,6 +114,4 @@ CMakeFiles/Snake.dir/src/Snake.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/12/bits/std_abs.h \
  /usr/include/c++/12/pstl/glue_algorithm_defs.h \
- /usr/include/c++/12/pstl/execution_defs.h \
- /home/patrygie/CppProjektyGitHub/Snake/src/../inc/Board.hpp \
- /home/patrygie/CppProjektyGitHub/Snake/src/../inc/Window.hpp
+ /usr/include/c++/12/pstl/execution_defs.h

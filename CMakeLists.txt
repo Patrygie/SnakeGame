@@ -7,6 +7,7 @@ src/Board.cpp
 src/Snack.cpp 
 src/Window.cpp 
 src/Snake.cpp
+src/Game.cpp
 )
 
 set(CMAKE_CXX_STANDARD 23)

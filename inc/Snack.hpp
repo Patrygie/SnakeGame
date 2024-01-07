@@ -4,17 +4,19 @@
 #include <random>
 #include <ctime>
 
+#include "Board.hpp"
+
 class Snack
 {
 private:
     int _x;
     int _y;
-    int _boarder_w;
-    int _boarder_h;
+    int _area_w;
+    int _area_h;
     const char *_s;
 
 public:
-    Snack(int width, int heigth, const char *s);
+    Snack(const char *s);
 
 public:
     void spawn();

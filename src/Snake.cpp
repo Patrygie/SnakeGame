@@ -1,11 +1,11 @@
 
 #include "../inc/Snake.hpp"
 
-Snake::Snake(int x, int y)
+Snake::Snake()
 {
-    SnakeSegment* head = new SnakeSegment{};
-    head->x_prev = x;
-    head->y_prev = y;
+    SnakeSegment *head = new SnakeSegment{};
+    head->x_prev = WIDTH / 2 + CORNER_X;
+    head->y_prev = HEIGTH / 2 + CORNER_Y;
     head->x_next = 0;
     head->y_next = 0;
     head->sign = "O";
@@ -29,13 +29,13 @@ void Snake::print_rel_head(int dt_x, int dt_y)
 
 void Snake::print_ruth_segments()
 {
-    for(int i = 1; i < _s.size(); ++i)
+    for (int i = 1; i < _s.size(); ++i)
     {
         _s[i].x_prev = _s[i].x_next;
-        _s[i].y_prev = _s[i].y_next; 
+        _s[i].y_prev = _s[i].y_next;
 
-        _s[i].x_next = _s[i-1].x_prev;
-        _s[i].y_next = _s[i-1].y_prev;
+        _s[i].x_next = _s[i - 1].x_prev;
+        _s[i].y_next = _s[i - 1].y_prev;
 
         move(_s[i].y_next, _s[i].x_next);
         printw(_s[i].sign);
@@ -52,7 +52,7 @@ void Snake::clear()
 
 void Snake::push_back()
 {
-    SnakeSegment* segment = new SnakeSegment{};
+    SnakeSegment *segment = new SnakeSegment{};
     segment->sign = "o";
     segment->x_next = _s.back().x_prev;
     segment->y_next = _s.back().y_prev;
@@ -95,9 +95,16 @@ int Snake::get_head_y() const
     return _s.front().y_next;
 }
 
-bool Snake::is_collision()
+bool Snake::is_self_collision()
 {
-    return std::any_of(_s.begin() + 1, _s.end(), [&](SnakeSegment i){
-         return (_s[0].x_next == i.x_next) and (_s[0].y_next == i.y_next); 
-         });
+    return std::any_of(_s.begin() + 1, _s.end(), [&](SnakeSegment i)
+                       { return (_s[0].x_next == i.x_next) and (_s[0].y_next == i.y_next); });
+}
+
+bool Snake::is_wall_collision()
+{
+    return (get_head_x() == WIDTH + CORNER_X + 1 - 2 
+            or get_head_x() == CORNER_X 
+            or get_head_y() == HEIGTH + CORNER_Y + 1 - 2
+            or get_head_y() == CORNER_Y);
 }

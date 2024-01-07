@@ -1,3 +1,4 @@
+
 #include "../inc/Window.hpp"
 
 void Window::init_window()
